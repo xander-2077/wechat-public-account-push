@@ -2,11 +2,13 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '乖乖早上好',
     desc: `
+      // TODO: 增加模板内容
+      
       **{{date.DATA}}**
       
-      下个休息日：{{holidaytts.DATA}}
+      // 下个休息日：{{holidaytts.DATA}}
       
       ---
       
