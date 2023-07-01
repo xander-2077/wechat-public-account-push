@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '乖乖早上好~',
+    title: '~乖乖早上好~',
     desc: `
 
       **{{date.DATA}}**
@@ -11,9 +11,9 @@ const TEMPLATE_CONFIG = [
       
       天气：{{weather.DATA}}
       
-      气温: {{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温：{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风力: {{wind_direction.DATA}} {{wind_scale.DATA}}
+      风力：{{wind_direction.DATA}} {{wind_scale.DATA}}
       
       ---
       
