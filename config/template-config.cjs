@@ -5,11 +5,12 @@ const TEMPLATE_CONFIG = [
     title: '~乖乖早上好~',
     desc: `
 
-      🗓️**{{date.DATA}}**
+      🗓️ {{date.DATA}}
 
       今天是我们在一起的第{{love_day.DATA}}天，爱你❤️
 
       ---
+
       今日{{city.DATA}}天气☁️：{{weather.DATA}}
 
       温度🌡️: {{min_temperature.DATA}}-{{max_temperature.DATA}}
