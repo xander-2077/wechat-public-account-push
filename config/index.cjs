@@ -50,18 +50,11 @@ const USER_CONFIG = {
         // { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
-  ],
-
-
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '0002',
-
-  CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '68603cf147bb443182407b121ff03867',
-
+      useTemplateId: '0003',
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
@@ -75,6 +68,18 @@ const USER_CONFIG = {
           type: '*生日', name: '宝贝', year: '2000', date: '12-18',
         },
       ],
+    }
+  ],
+
+
+  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
+  CALLBACK_TEMPLATE_ID: '0002',
+
+  CALLBACK_USERS: [
+    {
+      name: '自己',
+      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: '68603cf147bb443182407b121ff03867',
     }
   ],
 

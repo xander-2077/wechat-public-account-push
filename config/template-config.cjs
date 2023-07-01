@@ -7,13 +7,11 @@ const TEMPLATE_CONFIG = [
 
       **{{date.DATA}}**
       
-      ---
-      
       城市：{{city.DATA}}
       
       天气：{{weather.DATA}}
       
-      气温:{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温: {{max_temperature.DATA}} / {{min_temperature.DATA}}
       
       风力: {{wind_direction.DATA}} {{wind_scale.DATA}}
       
@@ -25,8 +23,6 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{moment_copyrighting.DATA}}
-      
       {{poetry_title.DATA}} 
       
       {{poetry_content.DATA}}
@@ -36,12 +32,6 @@ const TEMPLATE_CONFIG = [
     id: '0002',
     title: '推送完成提醒',
     desc: `
-      今天是我们相识的第{{love_day.DATA}}天
-      
-      {{birthday_message.DATA}}
-
-      ---
-
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
       
       共推送 {{need_post_num.DATA}} 人
@@ -51,6 +41,17 @@ const TEMPLATE_CONFIG = [
       成功用户: {{success_post_ids.DATA}}
       
       失败用户: {{fail_post_ids.DATA}}
+    `
+  },
+  {
+    id: '0003',
+    title: '早上好',
+    desc: `
+      **{{date.DATA}}**
+
+      今天是我们相识的第{{love_day.DATA}}天
+      
+      {{birthday_message.DATA}}
     `
   },
 ]
